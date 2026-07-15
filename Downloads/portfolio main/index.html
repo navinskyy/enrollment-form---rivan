@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="assets/favicon.PNG">
+<title>Navin Llanes </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-topbar">
+      <div class="brand" id="brand-home" role="button" tabindex="0" aria-label="Go to home page">
+        <div class="mark">navin<span class="dot">.</span></div>
+        <div class="path mono">~/portfolio</div>
+      </div>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="sidebar-divider" id="divider-brand"></div>
+
+    <div class="sidebar-collapsible" id="sidebar-collapsible">
+      <nav class="tree" id="nav">
+        <button class="nav-btn" data-target="projects"><span class="bar"></span>~/projects</button>
+        <button class="nav-btn" data-target="experience"><span class="bar"></span>~/experience</button>
+        <button class="nav-btn" data-target="stack"><span class="bar"></span>~/stack</button>
+        <button class="nav-btn" data-target="certifications"><span class="bar"></span>~/certifications</button>
+      </nav>
+      <div class="sidebar-divider"></div>
+
+      <div class="sidebar-bottom">
+        <button class="typing-launcher" data-open="typing" type="button">
+          <div class="tl-top">
+            <span class="ttl">type-check</span>
+            <span class="tl-arrow">›</span>
+          </div>
+          <span class="tl-hint">click to open the typing test</span>
+        </button>
+
+        <div class="sidebar-divider"></div>
+
+        <div class="theme-row">
+          <div class="switch" id="theme-switch" role="button" aria-label="Toggle color theme">
+            <svg class="theme-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </svg>
+            <svg class="theme-icon moon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/>
+            </svg>
+            <span class="knob"></span>
+          </div>
+        </div>
+        <div class="sidebar-meta">
+          Caloocan City, NCR<br>
+          <a href="mailto:navinbyronllanes@gmail.com">navinbyronllanes@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+
+    <!-- HOME -->
+    <section class="page active" id="page-home">
+     <div class="hero-layout">
+
+        <div class="hero-image">
+            <img src="assets/barko.jpg" alt="Navin">
+        </div>
+
+        <div class="hero-content">
+
+            <div class="eyebrow">home</div>
+
+            <h1>Navin<span class="accent">.</span></h1>
+
+            <h2>Byron Llanes</h2>
+
+            <div class="role">
+                Computer Science Student · Lyceum of the Philippines University - Manila
+            </div>
+
+            <p class="lede">
+                I'm a Computer Science and working student with a passion for front-end development, UI design, 
+                and creating modern web applications. I also have a growing interest in computer networking and cybersecurity, 
+                and I'm committed to continuously learning and improving my technical skills.</p>
+
+            <div class="social-row">
+
+    <a class="social-btn"
+       href="https://github.com/navinskyy"
+       target="_blank"
+       aria-label="GitHub">
+
+        <!-- GitHub -->
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.26c-3.34.73-4.04-1.42-4.04-1.42-.55-1.37-1.34-1.73-1.34-1.73-1.09-.75.08-.74.08-.74 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.49 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.39 1.24-3.24-.12-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.24a11.5 11.5 0 0 1 6 0c2.29-1.56 3.3-1.24 3.3-1.24.66 1.64.24 2.86.12 3.16.77.85 1.24 1.93 1.24 3.24 0 4.62-2.81 5.65-5.49 5.95.43.37.82 1.1.82 2.23v3.3c0 .32.21.7.83.58A12 12 0 0 0 12 .5z"/>
+        </svg>
+
+    </a>
+
+    <a class="social-btn"
+       href="https://linkedin.com/in/navin-llanes-b50871317"
+       target="_blank"
+       aria-label="LinkedIn">
+
+        <!-- LinkedIn -->
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4.98 3.5A2.48 2.48 0 1 0 5 8.46 2.48 2.48 0 0 0 4.98 3.5zM3 9h4v12H3zm7 0h3.8v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.06 0 4.81 2.67 4.81 6.15V21h-4v-5.34c0-1.27-.02-2.9-1.77-2.9s-2.04 1.38-2.04 2.8V21h-4z"/>
+        </svg>
+
+    </a>
+
+    <a class="social-btn"
+       href="https://www.instagram.com/_nabean/"
+       target="_blank"
+       aria-label="Instagram">
+
+        <!-- Instagram -->
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5zm0 2h10c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3zm10.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/>
+        </svg>
+
+    </a>
+
+    <button
+    class="social-btn email-btn"
+    data-open="email"
+    type="button">
+
+    Email
+
+</button>
+
+</div>
+
+            <div class="contact-row">
+                <span class="pill">☎ 0915 980 1407</span>
+                <span class="pill">📍 Caloocan City, NCR</span>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="page" id="page-projects">
+      <div class="eyebrow">projects</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-size:32px; margin-bottom:8px;">Things I've built</h2>
+      <p class="note">Click a project to check out the code on GitHub.</p>
+
+      <div class="project-list">
+        <a class="project-row" href="https://github.com/navinskyy/LIBR-A.I-RY" target="_blank" rel="noopener">
+          <div class="pr-name">LIBR-AI-RY</div>
+          <div class="pr-mid">
+            <div class="pr-cat">AI Website</div>
+            <div class="pr-desc">An AI-assisted library system exploring how smarter search and recommendations can make finding the right book faster and less frustrating.</div>
+          </div>
+          <svg class="pr-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+
+        <a class="project-row" href="https://github.com/navinskyy" target="_blank" rel="noopener">
+          <div class="pr-name">IoT Intrusion Detection</div>
+          <div class="pr-mid">
+            <div class="pr-cat">Research</div>
+            <div class="pr-desc">A machine learning-based Intrusion Detection System for IoT networks using the IoT-23 dataset — Random Forest hit 98.42% accuracy detecting malicious traffic.</div>
+          </div>
+          <svg class="pr-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+
+        <a class="project-row" href="https://github.com/navinskyy/CoffeeQuest" target="_blank" rel="noopener">
+          <div class="pr-name">CoffeeQuest / KoFind</div>
+          <div class="pr-mid">
+            <div class="pr-cat">Mobile app</div>
+            <div class="pr-desc">A discovery app for finding coffee shops nearby, built around location-based search and a clean, quick browsing experience.</div>
+          </div>
+          <svg class="pr-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+
+        <div class="project-list">
+        <a class="project-row" href="" target="_blank" rel="noopener">
+          <div class="pr-name">Red Warriors Advance System Ordering & Point of Sales</div>
+          <div class="pr-mid">
+            <div class="pr-cat">Mobile App</div>
+            <div class="pr-desc">Developed the frontend of the Red Warriors Advance System Ordering and POS, a mobile application built with Android Studio. Designed 
+              and implemented intuitive user interfaces for order placement, menu browsing, and point-of-sale transactions, focusing on usability, responsiveness, and a seamless user experience.</div>
+          </div>
+          <svg class="pr-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="page" id="page-experience">
+      <div class="eyebrow">experience</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-size:32px; margin-bottom:32px;">Where I've worked</h2>
+
+      <div class="timeline">
+        <div class="t-item">
+          <div class="when">May 2026 — Present</div>
+          <h3>Sales Advisor</h3>
+          <div class="org">H&amp;M · Quezon City</div>
+        </div>
+        <div class="t-item">
+          <div class="when">Nov 2025 — Present</div>
+          <h3>Vice Presidential Committee</h3>
+          <div class="org">Lyceum Pirate Esports Organization · Manila</div>
+        </div>
+        <div class="t-item">
+          <div class="when">Oct 2023 — May 2024</div>
+          <h3>Membership Committee</h3>
+          <div class="org">Lyceum Pirate Esports Organization · Manila</div>
+        </div>
+        <div class="t-item">
+          <div class="when">Apr — May 2023</div>
+          <h3>Leader, Work Immersion</h3>
+          <div class="org">Caloocan City</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="page" id="page-stack">
+      <div class="eyebrow">stack</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-size:32px; margin-bottom:32px;">Tools I work with</h2>
+
+      <div class="skill-grid">
+        <div class="skill-cat">
+          <div class="cat-name">Front end</div>
+          <div class="tag-row">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">React.js</span><span class="tag">Vite</span><span class="tag">Next.js</span><span class="tag">Tailwind CSS</span><span class="tag">Prettier</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <div class="cat-name">Backend</div>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">Python</span><span class="tag">Node.js</span><span class="tag">PHP</span><span class="tag">Linux</span><span class="tag">MySQL</span><span class="tag">SQL</span><span class="tag">Firebase</span><span class="tag">MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <div class="cat-name">AI &amp; machine learning</div>
+          <div class="tag-row">
+            <span class="tag">OpenAI</span><span class="tag">Claude Code</span><span class="tag">Codex</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <div class="cat-name">Tools &amp; technologies</div>
+          <div class="tag-row">
+            <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Visual Studio Code</span><span class="tag">Trello</span><span class="tag">Discord</span><span class="tag">Adobe Photoshop</span><span class="tag">Adobe Premiere Pro</span><span class="tag">Canva</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+<section class="page" id="page-certifications">
+
+    <div class="eyebrow">certifications</div>
+
+    <h2 class="cert-title">
+        Certifications & Seminars
+    </h2>
+
+    <p class="cert-subtitle">
+        Professional certifications, seminars, and workshops that showcase my continuous learning.
+    </p>
+
+    <!-- Academic Honors -->
+    <div class="cert-category">
+        ACADEMIC HONORS
+    </div>
+
+    <div class="cert-grid">
+
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="assets/bronze.PNG" alt="">
+            </div>
+            <h3>Dean's List</h3>
+            <span>2024-2025</span>
+            <a href="#" target="_blank">Verify →</a>
+        </div>
+
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="assets/Silver.PNG" alt="">
+            </div>
+            <h3>Dean's List</h3>
+            <span>2024-2025</span>
+            <a href="#" target="_blank">Verify →</a>
+        </div>
+
+    </div>
+
+    <!-- Certifications -->
+    <div class="cert-category">
+        Technical Certifications & Seminars
+    </div>
+
+    <div class="cert-grid">
+
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="assets/Web Dev.png">
+            </div>
+            <h3>Web Development and Smart Contract</h3>
+            <span>May 2026</span>
+            <a href="#">Verify →</a>
+        </div>
+
+         <div class="cert-card">
+            <div class="cert-image">
+                <img src="assets/PCC.PNG" alt="">
+            </div>
+            <h3>
+                Philippine Coding Camp's InnoVision:
+                2026 Campus Series
+            </h3>
+            <span>February 2026</span>
+            <a href="#" target="_blank">Verify →</a>
+        </div>
+
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="assets/CloudGaming.PNG" alt="">
+            </div>
+            <h3>Cloud Gaming: The Future of Interactive Entertainment</h3>
+            <span>April 2024</span>
+            <a href="#" target="_blank">Verify →</a>
+        </div>
+
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="assets/innovating.jpg" alt="">
+            </div>
+            <h3>Innovating Intelligence: A.I Ethics & Big Data Transparency</h3>
+            <span>March 2024</span>
+            <a href="#" target="_blank">Verify →</a>
+        </div>
+
+         <div class="cert-card">
+            <div class="cert-image">
+                <img src="assets/Techtutor.PNG" alt="">
+            </div>
+            <h3>Artificial Intelligence: The life that is to Come</h3>
+            <span>October 2023</span>
+            <a href="#" target="_blank">Verify →</a>
+        </div>
+
+    </div>
+
+</section>
+
+  </main>
+</div>
+
+<!-- ================= EMAIL MODAL ================= -->
+<div class="modal-overlay" id="email-overlay">
+  <div class="email-card">
+    <button class="modal-close" data-close aria-label="Close">✕</button>
+    <div class="ec-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 6.5l9 6 9-6"/></svg>
+    </div>
+    <h3>Get in touch</h3>
+    <p class="ec-sub">Say hello — I'd love to hear from you.</p>
+    <div class="email-box">
+      <span id="email-text">navinbyronllanes@gmail.com</span>
+      <button class="copy-btn" id="copy-email-btn" aria-label="Copy email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      </button>
+    </div>
+    <a class="open-email-btn" href="mailto:navinbyronllanes@gmail.com">Open email</a>
+  </div>
+</div>
+
+<!-- ================= TYPING TEST RESULT MODAL ================= -->
+<div class="modal-overlay" id="result-overlay">
+  <div class="email-card">
+    <button class="modal-close" data-close aria-label="Close">✕</button>
+    <div class="ec-icon result-emoji" id="result-icon">🏆</div>
+    <h3 id="result-title">You beat Navin!</h3>
+    <p class="ec-sub" id="result-sub">You typed faster and more accurately than Navin's run.</p>
+    <div class="result-stats">
+      <div class="tt-stat"><div class="val" id="result-wpm">0</div><div class="lbl">wpm</div></div>
+      <div class="tt-stat"><div class="val" id="result-acc">0<span>%</span></div><div class="lbl">acc</div></div>
+    </div>
+    <button class="open-email-btn" id="result-retry" type="button">Try again</button>
+  </div>
+</div>
+
+<!-- ================= TYPING TEST MODAL ================= -->
+<div class="modal-overlay tt-overlay" id="tt-overlay">
+  <button class="modal-close" data-close aria-label="Close">✕</button>
+  <div class="tt-card">
+    <div class="tt-stats">
+      <div class="tt-stat"><div class="val" id="tt-wpm">0</div><div class="lbl">wpm</div></div>
+      <div class="tt-stat"><div class="val" id="tt-acc">100<span>%</span></div><div class="lbl">acc</div></div>
+      <div class="tt-stat"><div class="val" id="tt-time">0<span>s</span></div><div class="lbl">time</div></div>
+    </div>
+
+    <div class="tt-viewport">
+      <div class="tt-track" id="tt-track"></div>
+    </div>
+
+    <input class="tt-input" id="tt-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false">
+
+    <div class="tt-keyboard" aria-hidden="true">
+      <div class="kb-row">
+        <div class="kb-key" data-key="q">q</div><div class="kb-key" data-key="w">w</div><div class="kb-key" data-key="e">e</div><div class="kb-key" data-key="r">r</div><div class="kb-key" data-key="t">t</div><div class="kb-key" data-key="y">y</div><div class="kb-key" data-key="u">u</div><div class="kb-key" data-key="i">i</div><div class="kb-key" data-key="o">o</div><div class="kb-key" data-key="p">p</div>
+      </div>
+      <div class="kb-row">
+        <div class="kb-key" data-key="a">a</div><div class="kb-key" data-key="s">s</div><div class="kb-key" data-key="d">d</div><div class="kb-key" data-key="f">f</div><div class="kb-key" data-key="g">g</div><div class="kb-key" data-key="h">h</div><div class="kb-key" data-key="j">j</div><div class="kb-key" data-key="k">k</div><div class="kb-key" data-key="l">l</div>
+      </div>
+      <div class="kb-row">
+        <div class="kb-key" data-key="z">z</div><div class="kb-key" data-key="x">x</div><div class="kb-key" data-key="c">c</div><div class="kb-key" data-key="v">v</div><div class="kb-key" data-key="b">b</div><div class="kb-key" data-key="n">n</div><div class="kb-key" data-key="m">m</div>
+      </div>
+      <div class="kb-row">
+        <div class="kb-space" id="kb-space">SPACE</div>
+      </div>
+    </div>
+
+    <div class="tt-foot">
+      <span><kbd>tab</kbd> restart</span>
+      <span><kbd>esc</kbd> close</span>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
